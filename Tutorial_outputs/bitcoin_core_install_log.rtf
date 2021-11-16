@@ -1,0 +1,205 @@
+{\rtf1\ansi\ansicpg1250\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab560
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+
+\f0\fs26 \cf0 ben@ben-VirtualBox:~$ tar -xvf ~/Bitcoin/bitcoin-0.20.1-x86_64-linux-gnu.tar.gz -C ~/Bitcoin/\
+bitcoin-0.20.1/\
+bitcoin-0.20.1/bin/\
+bitcoin-0.20.1/bin/bitcoin-cli\
+bitcoin-0.20.1/bin/bitcoind\
+bitcoin-0.20.1/bin/bitcoin-qt\
+bitcoin-0.20.1/bin/bitcoin-tx\
+bitcoin-0.20.1/bin/bitcoin-wallet\
+bitcoin-0.20.1/bin/test_bitcoin\
+bitcoin-0.20.1/include/\
+bitcoin-0.20.1/include/bitcoinconsensus.h\
+bitcoin-0.20.1/lib/\
+bitcoin-0.20.1/lib/libbitcoinconsensus.so\
+bitcoin-0.20.1/lib/libbitcoinconsensus.so.0\
+bitcoin-0.20.1/lib/libbitcoinconsensus.so.0.0.0\
+bitcoin-0.20.1/README.md\
+bitcoin-0.20.1/share/\
+bitcoin-0.20.1/share/man/\
+bitcoin-0.20.1/share/man/man1/\
+bitcoin-0.20.1/share/man/man1/bitcoin-cli.1\
+bitcoin-0.20.1/share/man/man1/bitcoind.1\
+bitcoin-0.20.1/share/man/man1/bitcoin-qt.1\
+bitcoin-0.20.1/share/man/man1/bitcoin-tx.1\
+bitcoin-0.20.1/share/man/man1/bitcoin-wallet.1\
+ben@ben-VirtualBox:~$ mkdir ~/Bitcoin/bitcoin-0.20.1/data\
+ben@ben-VirtualBox:~$ mkdir ~/.bitcoin\
+mkdir: cannot create directory \'91/home/ben/.bitcoin\'92: File exists\
+ben@ben-VirtualBox:~$ wget https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/\
+--2021-09-30 14:24:01--  https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/\
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.109.133, 185.199.108.133, ...\
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.\
+ERROR: cannot verify raw.githubusercontent.com's certificate, issued by \'91CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US\'92:\
+  Unable to locally verify the issuer's authority.\
+To connect to raw.githubusercontent.com insecurely, use `--no-check-certificate'.\
+ben@ben-VirtualBox:~$ examples/bitcoin.conf -P ~/.bitcoin\
+bash: examples/bitcoin.conf: No such file or directory\
+ben@ben-VirtualBox:~$ wget https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/examples/bitcoin.conf -P ~/.bitcoin\
+--2021-09-30 14:24:28--  https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/examples/bitcoin.conf\
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.109.133, 185.199.108.133, ...\
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.\
+ERROR: cannot verify raw.githubusercontent.com's certificate, issued by \'91CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US\'92:\
+  Unable to locally verify the issuer's authority.\
+To connect to raw.githubusercontent.com insecurely, use `--no-check-certificate'.\
+ben@ben-VirtualBox:~$ wget https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/examples/bitcoin.conf -P ~/.bitcoin\
+--2021-09-30 14:24:34--  https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/examples/bitcoin.conf\
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.109.133, 185.199.108.133, ...\
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.\
+ERROR: cannot verify raw.githubusercontent.com's certificate, issued by \'91CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US\'92:\
+  Unable to locally verify the issuer's authority.\
+To connect to raw.githubusercontent.com insecurely, use `--no-check-certificate'.\
+ben@ben-VirtualBox:~$ mkdir ~/Bitcoin wget https://bitcoin.org/bin/bitcoin-core-0.20.1/bitcoin-0.20.1-x86_64- linux-gnu.tar.gz -P ~/Bitcoin \
+mkdir: invalid option -- 'P'\
+Try 'mkdir --help' for more information.\
+ben@ben-VirtualBox:~$ mkdir ~/Bitcoin \
+ben@ben-VirtualBox:~$ wget https://bitcoin.org/bin/bitcoin-core-0.20.1/bitcoin-0.20.1-x86_64- linux-gnu.tar.gz -P ~/Bitcoin \
+--2021-09-30 14:29:10--  https://bitcoin.org/bin/bitcoin-core-0.20.1/bitcoin-0.20.1-x86_64-\
+Resolving bitcoin.org (bitcoin.org)... 104.22.69.176, 172.67.40.154, 104.22.68.176, ...\
+Connecting to bitcoin.org (bitcoin.org)|104.22.69.176|:443... connected.\
+ERROR: cannot verify bitcoin.org's certificate, issued by \'91CN=R3,O=Let's Encrypt,C=US\'92:\
+  Unable to locally verify the issuer's authority.\
+To connect to bitcoin.org insecurely, use `--no-check-certificate'.\
+--2021-09-30 14:29:11--  http://linux-gnu.tar.gz/\
+Resolving linux-gnu.tar.gz (linux-gnu.tar.gz)... failed: Name or service not known.\
+wget: unable to resolve host address \'91linux-gnu.tar.gz\'92\
+ben@ben-VirtualBox:~$ wget https://bitcoin.org/bin/bitcoin-core-0.20.1/bitcoin-0.20.1-x86_64-linux-gnu.tar.gz -P ~/Bitcoin \
+--2021-09-30 14:29:30--  https://bitcoin.org/bin/bitcoin-core-0.20.1/bitcoin-0.20.1-x86_64-linux-gnu.tar.gz\
+Resolving bitcoin.org (bitcoin.org)... 104.22.68.176, 172.67.40.154, 104.22.69.176, ...\
+Connecting to bitcoin.org (bitcoin.org)|104.22.68.176|:443... connected.\
+ERROR: cannot verify bitcoin.org's certificate, issued by \'91CN=R3,O=Let's Encrypt,C=US\'92:\
+  Unable to locally verify the issuer's authority.\
+To connect to bitcoin.org insecurely, use `--no-check-certificate'.\
+ben@ben-VirtualBox:~$ -xvf ~/Bitcoin/bitcoin-0.20.1-x86_64-linux-gnu.tar.gz -C ~/Bitcoin/ \
+-xvf: command not found\
+ben@ben-VirtualBox:~$ mkdir ~/Bitcoin \
+mkdir: cannot create directory \'91/home/ben/Bitcoin\'92: File exists\
+ben@ben-VirtualBox:~$ wget https://bitcoin.org/bin/bitcoin-core-0.20.1/bitcoin-0.20.1-x86_64-linux-gnu.tar.gz -P ~/Bitcoin\
+--2021-09-30 14:31:23--  https://bitcoin.org/bin/bitcoin-core-0.20.1/bitcoin-0.20.1-x86_64-linux-gnu.tar.gz\
+Resolving bitcoin.org (bitcoin.org)... 104.22.68.176, 172.67.40.154, 104.22.69.176, ...\
+Connecting to bitcoin.org (bitcoin.org)|104.22.68.176|:443... connected.\
+ERROR: cannot verify bitcoin.org's certificate, issued by \'91CN=R3,O=Let's Encrypt,C=US\'92:\
+  Unable to locally verify the issuer's authority.\
+To connect to bitcoin.org insecurely, use `--no-check-certificate'.\
+ben@ben-VirtualBox:~$ wget https://bitcoin.org/bin/bitcoin-core-0.20.1/bitcoin-0.20.1-x86_64-linux-gnu.tar.gz -P ~/Bitcoin --no-check-certificate\
+--2021-09-30 14:31:52--  https://bitcoin.org/bin/bitcoin-core-0.20.1/bitcoin-0.20.1-x86_64-linux-gnu.tar.gz\
+Resolving bitcoin.org (bitcoin.org)... 104.22.68.176, 172.67.40.154, 104.22.69.176, ...\
+Connecting to bitcoin.org (bitcoin.org)|104.22.68.176|:443... connected.\
+WARNING: cannot verify bitcoin.org's certificate, issued by \'91CN=R3,O=Let's Encrypt,C=US\'92:\
+  Unable to locally verify the issuer's authority.\
+HTTP request sent, awaiting response... 200 OK\
+Length: 29585617 (28M) [application/octet-stream]\
+Saving to: \'91/home/ben/Bitcoin/bitcoin-0.20.1-x86_64-linux-gnu.tar.gz\'92\
+\
+bitcoin-0.20.1-x86_64-linux-gnu. 100%[========================================================>]  28,21M   205KB/s    in 2m 25s  \
+\
+2021-09-30 14:34:17 (200 KB/s) - \'91/home/ben/Bitcoin/bitcoin-0.20.1-x86_64-linux-gnu.tar.gz\'92 saved [29585617/29585617]\
+\
+ben@ben-VirtualBox:~$ tar -xvf ~/Bitcoin/bitcoin-0.20.1-x86_64-linux-gnu.tar.gz -C ~/Bitcoin/\
+bitcoin-0.20.1/\
+bitcoin-0.20.1/bin/\
+bitcoin-0.20.1/bin/bitcoin-cli\
+bitcoin-0.20.1/bin/bitcoind\
+bitcoin-0.20.1/bin/bitcoin-qt\
+bitcoin-0.20.1/bin/bitcoin-tx\
+bitcoin-0.20.1/bin/bitcoin-wallet\
+bitcoin-0.20.1/bin/test_bitcoin\
+bitcoin-0.20.1/include/\
+bitcoin-0.20.1/include/bitcoinconsensus.h\
+bitcoin-0.20.1/lib/\
+bitcoin-0.20.1/lib/libbitcoinconsensus.so\
+bitcoin-0.20.1/lib/libbitcoinconsensus.so.0\
+bitcoin-0.20.1/lib/libbitcoinconsensus.so.0.0.0\
+bitcoin-0.20.1/README.md\
+bitcoin-0.20.1/share/\
+bitcoin-0.20.1/share/man/\
+bitcoin-0.20.1/share/man/man1/\
+bitcoin-0.20.1/share/man/man1/bitcoin-cli.1\
+bitcoin-0.20.1/share/man/man1/bitcoind.1\
+bitcoin-0.20.1/share/man/man1/bitcoin-qt.1\
+bitcoin-0.20.1/share/man/man1/bitcoin-tx.1\
+bitcoin-0.20.1/share/man/man1/bitcoin-wallet.1\
+ben@ben-VirtualBox:~$ mkdir ~/Bitcoin/bitcoin-0.20.1/data\
+ben@ben-VirtualBox:~$ mkdir ~/.bitcoin\
+mkdir: cannot create directory \'91/home/ben/.bitcoin\'92: File exists\
+ben@ben-VirtualBox:~$ wget https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/examples/bitcoin.conf -P ~/.bitcoin\
+--2021-09-30 14:35:28--  https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/examples/bitcoin.conf\
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.109.133, 185.199.110.133, ...\
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.\
+ERROR: cannot verify raw.githubusercontent.com's certificate, issued by \'91CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US\'92:\
+  Unable to locally verify the issuer's authority.\
+To connect to raw.githubusercontent.com insecurely, use `--no-check-certificate'.\
+ben@ben-VirtualBox:~$ wget https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/examples/bitcoin.conf -P ~/.bitcoin --no-check-certificates\
+wget: unrecognized option '--no-check-certificates'\
+Usage: wget [OPTION]... [URL]...\
+\
+Try `wget --help' for more options.\
+ben@ben-VirtualBox:~$ wget https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/examples/bitcoin.conf -P ~/.bitcoin --no-check-certificate\
+--2021-09-30 14:35:45--  https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/examples/bitcoin.conf\
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.110.133, 185.199.109.133, ...\
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.\
+WARNING: cannot verify raw.githubusercontent.com's certificate, issued by \'91CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US\'92:\
+  Unable to locally verify the issuer's authority.\
+HTTP request sent, awaiting response... 200 OK\
+Length: 7411 (7,2K) [text/plain]\
+Saving to: \'91/home/ben/.bitcoin/bitcoin.conf.1\'92\
+\
+bitcoin.conf.1                   100%[========================================================>]   7,24K  --.-KB/s    in 0s      \
+\
+2021-09-30 14:35:46 (33,5 MB/s) - \'91/home/ben/.bitcoin/bitcoin.conf.1\'92 saved [7411/7411]\
+\
+ben@ben-VirtualBox:~$ mkdir ~/Bitcoin/bitcoin-0.20.1/share/rpcauth\
+ben@ben-VirtualBox:~$ wget https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/rpcauth/rpcauth.py -P ~/Bitcoin/bitcoin-0.20.1/share/rpcauth\
+--2021-09-30 14:36:24--  https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/rpcauth/rpcauth.py\
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.110.133, 185.199.109.133, ...\
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.\
+ERROR: cannot verify raw.githubusercontent.com's certificate, issued by \'91CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US\'92:\
+  Unable to locally verify the issuer's authority.\
+To connect to raw.githubusercontent.com insecurely, use `--no-check-certificate'.\
+ben@ben-VirtualBox:~$ wget https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/rpcauth/rpcauth.py -P ~/Bitcoin/bitcoin-0.20.1/share/rpcauth --no-check-certificates\
+wget: unrecognized option '--no-check-certificates'\
+Usage: wget [OPTION]... [URL]...\
+\
+Try `wget --help' for more options.\
+ben@ben-VirtualBox:~$ wget https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/rpcauth/rpcauth.py -P ~/Bitcoin/bitcoin-0.20.1/share/rpcauth --no-check-certificate\
+--2021-09-30 14:36:37--  https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/rpcauth/rpcauth.py\
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.110.133, 185.199.109.133, ...\
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.\
+WARNING: cannot verify raw.githubusercontent.com's certificate, issued by \'91CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US\'92:\
+  Unable to locally verify the issuer's authority.\
+HTTP request sent, awaiting response... 200 OK\
+Length: 1534 (1,5K) [text/plain]\
+Saving to: \'91/home/ben/Bitcoin/bitcoin-0.20.1/share/rpcauth/rpcauth.py\'92\
+\
+rpcauth.py                       100%[========================================================>]   1,50K  --.-KB/s    in 0s      \
+\
+2021-09-30 14:36:38 (12,8 MB/s) - \'91/home/ben/Bitcoin/bitcoin-0.20.1/share/rpcauth/rpcauth.py\'92 saved [1534/1534]\
+\
+ben@ben-VirtualBox:~$ python3 ~/Bitcoin/bitcoin-0.20.1/share/rpcauth/rpcauth.py ben > ~/Bitcoin/creds.txt\
+ben@ben-VirtualBox:~$ cat ~/Bitcoin/creds.txt\
+String to be appended to bitcoin.conf:\
+rpcauth=ben:1daece304e91a695173d00a9bfd02225$212d0f94d45170782eac6354f1f72187198cd5d0b78a20fc1ea4b120742b473d\
+Your password:\
+WbCBbO3n8EIwEBNiX1l834PgDWBuD_D0SukWGnII7rc=\
+ben@ben-VirtualBox:~$ vim ~/.bitcoin/bitcoin.conf\
+ben@ben-VirtualBox:~$ sudo install nano\
+[sudo] password for ben: \
+install: missing destination file operand after 'nano'\
+Try 'install --help' for more information.\
+ben@ben-VirtualBox:~$ nano ~/.bitcoin/bitcoin.conf\
+ben@ben-VirtualBox:~$ ~/Bitcoin/bitcoin-0.20.1/bin/bitcoind -regtest -fallbackfee=0.0002\
+Error: Error reading configuration file: parse error on line 2: Your password:\
+\
+ben@ben-VirtualBox:~$ nano ~/.bitcoin/bitcoin.conf\
+ben@ben-VirtualBox:~$ ~/Bitcoin/bitcoin-0.20.1/bin/bitcoind -regtest -fallbackfee=0.0002\
+Error: Error reading configuration file: parse error on line 20: kpok\
+\
+ben@ben-VirtualBox:~$ nano ~/.bitcoin/bitcoin.conf\
+}
